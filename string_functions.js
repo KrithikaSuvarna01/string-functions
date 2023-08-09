@@ -1,4 +1,4 @@
-//This File consists of different Operations related to string
+//This File consists of different Operations related to string-Krithika
 
 /**
  * This function takes a string as an argument and returns the count of vowels
