@@ -7,15 +7,21 @@
  */
 function vowelCount(str){
     var testString=str;
+    var str2="";
     testString=testString.toLowerCase();
     console.log(testString)
     var count=0;
-    for(var i=0;i<str.length;i++){
-        if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'){
+    for(var i=0;i<=testString.length;i++){
+        if(testString[i]=='a'||testString[i]=='e'||testString[i]=='i'||testString[i]=='o'||testString[i]=='u'){
                 count+=1;
+                str2+=testString[i];
+                
+                
         }
+        
     }
+    console.log(str2)
     return count;
 }
 
-console.log(vowelCount("HelloWorldeaeiou"));
+console.log(vowelCount("HelloWorldeaeiouAEIOU"));
