@@ -11,7 +11,6 @@ function vowelCount(str){
     testString=testString.toLowerCase();
     console.log(testString)
     var count=0;
-    //this loop loops throught the string to check if there is any vowels
     for(var i=0;i<=testString.length;i++){
         if(testString[i]=='a'||testString[i]=='e'||testString[i]=='i'||testString[i]=='o'||testString[i]=='u'){
                 count+=1;
@@ -43,12 +42,15 @@ function checkPalindrome(str){
     if(stringToCheck === reverse){
         return "The string "+stringToCheck+" is a palindrome";
     }
-     //if they are not equal, return 'not palindrome'
     return "The string "+stringToCheck+" is not a palindrome";
 
 
 }
 
+
+function lowercase(str){
+    return str.toLowerCase
+}
     
 
 
