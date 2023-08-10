@@ -42,6 +42,7 @@ function checkPalindrome(str){
     if(stringToCheck === reverse){
         return "The string "+stringToCheck+" is a palindrome";
     }
+     //if they are not equal, return 'not palindrome'
     return "The string "+stringToCheck+" is not a palindrome";
 
 
