@@ -11,6 +11,7 @@ function vowelCount(str){
     testString=testString.toLowerCase();
     console.log(testString)
     var count=0;
+    //this loop loops throught the string to check if there is any vowels
     for(var i=0;i<=testString.length;i++){
         if(testString[i]=='a'||testString[i]=='e'||testString[i]=='i'||testString[i]=='o'||testString[i]=='u'){
                 count+=1;
