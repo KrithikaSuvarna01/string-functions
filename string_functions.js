@@ -48,6 +48,11 @@ function checkPalindrome(str){
 }
 
 
+/**
+ * This function accepts a string and returns the whole string, in lowercase.
+ * @param {string} str 
+ * @returns the result
+ */
 function lowercase(str){
     return str.toLowerCase
 }
