@@ -11,7 +11,6 @@ function vowelCount(str){
     testString=testString.toLowerCase();
     console.log(testString)
     var count=0;
-    //this loop loops throught the string to check if there is any vowels
     for(var i=0;i<=testString.length;i++){
         if(testString[i]=='a'||testString[i]=='e'||testString[i]=='i'||testString[i]=='o'||testString[i]=='u'){
                 count+=1;
@@ -48,8 +47,17 @@ function checkPalindrome(str){
 
 }
 
+
+/**
+ * This function accepts a string and returns the whole string, in lowercase.
+ * @param {string} str 
+ * @returns the result
+ */
+function lowercase(str){
+    return str.toLowerCase
+}
     
 
 
 
-export { vowelCount, checkPalindrome}
+export { vowelCount, checkPalindrome,lowercase}
