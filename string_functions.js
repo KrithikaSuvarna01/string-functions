@@ -60,4 +60,4 @@ function lowercase(str){
 
 
 
-export { vowelCount, checkPalindrome}
+export { vowelCount, checkPalindrome,lowercase}
