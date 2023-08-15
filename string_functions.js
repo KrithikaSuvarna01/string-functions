@@ -56,6 +56,10 @@ function checkPalindrome(str){
 function lowercase(str){
     return str.toLowerCase
 }
+
+function reverse(str){
+    return str.split('').reverse().join('')
+}
     
 
 
