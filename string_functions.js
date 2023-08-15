@@ -57,6 +57,12 @@ function lowercase(str){
     return str.toLowerCase
 }
 
+
+/**
+ * This function reverses a string.
+ * @param {number} str 
+ * @returns the revrse string.
+ */
 function reverse(str){
     return str.split('').reverse().join('')
 }
@@ -64,4 +70,4 @@ function reverse(str){
 
 
 
-export { vowelCount, checkPalindrome,lowercase}
+export { vowelCount, checkPalindrome,lowercase,reverse}
